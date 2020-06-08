@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="72530457-a70f-4ea8-84a3-f30e925c9a38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/adminmaster.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/adminmaster.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +167,8 @@
       <workItem from="1591009141227" duration="1277000" />
       <workItem from="1591012585878" duration="1009000" />
       <workItem from="1591068270846" duration="604000" />
-      <workItem from="1591590235723" duration="2014000" />
+      <workItem from="1591590235723" duration="2359000" />
+      <workItem from="1591592923075" duration="1436000" />
     </task>
     <servers />
   </component>
@@ -180,10 +181,10 @@
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584714982507" />
     <state x="651" y="170" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591009825133" />
-    <state x="533" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1591009162380">
+    <state x="533" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1591593043418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584714964639" />
-    <state x="533" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591009162380" />
+    <state x="533" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591593043418" />
   </component>
 </project>
