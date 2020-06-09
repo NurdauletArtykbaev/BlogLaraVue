@@ -22,6 +22,10 @@ import VueRouter from 'vue-router'
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+// Vue.component('admin-home', require('./components/admin/AdminHome').default);
+Vue.component('admin-main', require('./components/admin/AdminMaster').default);
+
+
 Vue.use(VueRouter);
 Vue.use(router);
 /**
