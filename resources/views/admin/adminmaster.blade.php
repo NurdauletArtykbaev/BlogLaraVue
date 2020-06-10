@@ -53,31 +53,31 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item has-treeview menu-open">
-            <a href="#" class="nav-link">
+            <router-link to="/home"  class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
                 <i class="right fas fa-angle-left"></i>
               </p>
-            </a>
+            </router-link>
 
           </li>
             <li class="nav-item">
-                <a href="pages/widgets.html" class="nav-link">
+                <router-link to="/category-list" class="nav-link">
                     <i class="nav-icon fas fa-th"></i>
                     <p>
                         Category
                     </p>
-                </a>
+                </router-link>
             </li>
             <li class="nav-item">
-                <a href="pages/widgets.html" class="nav-link">
+                <router-link to="posts"  class="nav-link">
                     <i class="nav-icon fas fa-th"></i>
                     <p>
                         Posts
                         <span class="right badge badge-danger">New</span>
                     </p>
-                </a>
+                </router-link>
             </li>
 
         </ul>
@@ -88,7 +88,10 @@
   </aside>
 
   <!-- Content Wrapper. Contains page content -->
-  <admin-main></admin-main> 
+    <div class="content-wrapper">
+        <admin-main></admin-main>
+
+    </div>
 
   <!-- /.content-wrapper -->
   <footer class="main-footer">
