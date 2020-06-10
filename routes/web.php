@@ -21,3 +21,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('posts', 'Admin\PostController@all_posts');
+Route::get('{anypath}', 'HomeController@index')->where('path','.*');
