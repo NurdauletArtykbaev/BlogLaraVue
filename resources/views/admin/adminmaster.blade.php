@@ -63,12 +63,12 @@
 
           </li>
             <li class="nav-item">
-                <a href="pages/widgets.html" class="nav-link">
+                <router-link to="/category-list" class="nav-link">
                     <i class="nav-icon fas fa-th"></i>
                     <p>
                         Category
                     </p>
-                </a>
+                </router-link>
             </li>
             <li class="nav-item">
                 <router-link to="posts"  class="nav-link">
@@ -88,7 +88,10 @@
   </aside>
 
   <!-- Content Wrapper. Contains page content -->
-  <admin-main></admin-main>
+    <div class="content-wrapper">
+        <admin-main></admin-main>
+
+    </div>
 
   <!-- /.content-wrapper -->
   <footer class="main-footer">
