@@ -1,13 +1,13 @@
 <template>
     <div>
         <section class="content">
-        <div class="row">
+        <div class="row justify-content-around">
             <div class="col-8">
                 <div class="card">
                     <div class="card-header">
                         <h3 class="card-title">Category List</h3>
                         <div class="card-tools">
-                            <button class="btn btn-primary">Add Category</button>
+                            <router-link to="/add-category" class="btn btn-primary">Add Category</router-link>
                         </div>
                     </div>
                     <!-- /.card-header -->

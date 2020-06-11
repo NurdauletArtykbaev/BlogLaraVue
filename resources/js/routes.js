@@ -20,7 +20,7 @@ let routes = [
 
     },
     {
-        path: '/category-new',
+        path: '/add-category',
         component: CategoryNew
 
     },
