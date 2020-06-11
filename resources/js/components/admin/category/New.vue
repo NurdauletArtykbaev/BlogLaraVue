@@ -56,6 +56,10 @@
                 console.log('addca')
                 this.form.post('/add-category').then((res)=>{
                     this.$router.push('/category-list')
+                    Toast.fire({
+                        icon: 'success',
+                        title: 'Category added in successfully'
+                    });
                 })
             }
         }
