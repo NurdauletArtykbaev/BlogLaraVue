@@ -20,7 +20,10 @@ import VueRouter from 'vue-router'
 
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
-
+import { Form, HasError, AlertError } from 'vform'
+window.Form = Form;
+Vue.component(HasError.name, HasError)
+Vue.component(AlertError.name, AlertError)
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 // Vue.component('admin-home', require('./components/admin/AdminHome').default);
 Vue.component('admin-main', require('./components/admin/AdminMaster').default);
