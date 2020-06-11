@@ -2059,6 +2059,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "New",
   data: function data() {
@@ -2070,9 +2071,11 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     addCategory: function addCategory() {
+      var _this = this;
+
       console.log('addca');
       this.form.post('/add-category').then(function (res) {
-        console.log('res', res.data);
+        _this.$router.push('/category-list');
       });
     }
   }
@@ -40087,37 +40090,50 @@ var render = function() {
               },
               [
                 _c("div", { staticClass: "card-body" }, [
-                  _c("div", { staticClass: "form-group" }, [
-                    _c("label", { attrs: { for: "categoryId" } }, [
-                      _vm._v("Add new Category")
-                    ]),
-                    _vm._v(" "),
-                    _c("input", {
-                      directives: [
-                        {
-                          name: "model",
-                          rawName: "v-model",
-                          value: _vm.form.cat_name,
-                          expression: "form.cat_name"
-                        }
-                      ],
-                      staticClass: "form-control",
-                      attrs: {
-                        type: "text",
-                        id: "categoryId",
-                        placeholder: "Add new Category"
-                      },
-                      domProps: { value: _vm.form.cat_name },
-                      on: {
-                        input: function($event) {
-                          if ($event.target.composing) {
-                            return
+                  _c(
+                    "div",
+                    { staticClass: "form-group" },
+                    [
+                      _c("label", { attrs: { for: "categoryId" } }, [
+                        _vm._v("Add new Category")
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.form.cat_name,
+                            expression: "form.cat_name"
                           }
-                          _vm.$set(_vm.form, "cat_name", $event.target.value)
+                        ],
+                        staticClass: "form-control",
+                        class: {
+                          "is-invalid": _vm.form.errors.has("cat_name")
+                        },
+                        attrs: {
+                          type: "text",
+                          name: "cat_name",
+                          id: "categoryId",
+                          placeholder: "Add new Category"
+                        },
+                        domProps: { value: _vm.form.cat_name },
+                        on: {
+                          input: function($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.form, "cat_name", $event.target.value)
+                          }
                         }
-                      }
-                    })
-                  ])
+                      }),
+                      _vm._v(" "),
+                      _c("has-error", {
+                        attrs: { form: _vm.form, field: "cat_name" }
+                      })
+                    ],
+                    1
+                  )
                 ]),
                 _vm._v(" "),
                 _vm._m(1)

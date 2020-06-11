@@ -15,7 +15,8 @@
                             <div class="card-body">
                                 <div class="form-group">
                                     <label for="categoryId">Add new Category</label>
-                                    <input type="text" v-model="form.cat_name" class="form-control" id="categoryId" placeholder="Add new Category">
+                                    <input type="text" v-model="form.cat_name" name="cat_name" :class="{'is-invalid': form.errors.has('cat_name')}" class="form-control" id="categoryId" placeholder="Add new Category">
+                                    <has-error :form="form" field="cat_name"></has-error>
                                 </div>
 
                             </div>
@@ -54,7 +55,7 @@
             addCategory(){
                 console.log('addca')
                 this.form.post('/add-category').then((res)=>{
-                    console.log('res', res.data)
+                    this.$router.push('/category-list')
                 })
             }
         }
