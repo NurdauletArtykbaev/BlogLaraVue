@@ -110,6 +110,63 @@
 </div>
 
 <script src="{{ asset('js/app.js')}}"></script>
+<script>
+    // if (!('serviceWorker' in navigator)) {
+    //     // Service Worker isn't supported on this browser, disable or hide UI.
+    //     console.log("!('serviceWorker'")
+    // }
+    // else{
+    //     console.log("serviceWorker'")
+    //
+    // }
+    //
+    // if (!('PushManager' in window)) {
+    //     // Push isn't supported on this browser, disable or hide UI.
+    //     console.log("!('PushManager'")
+    //
+    // } else{
+    //     console.log("'PushManager'")
+    //
+    // }
+    //
+    //
+    // // Utility function for UTF-8 encoding a string to an ArrayBuffer.
+    // const utf8Encoder = new TextEncoder('utf-8');
+    //
+    // // The unsigned token is the concatenation of the URL-safe base64 encoded
+    // // header and body.
+    // const unsignedToken = 'testsdv';
+    //
+    // // Sign the |unsignedToken| using ES256 (SHA-256 over ECDSA).
+    // const key = {
+    //     kty: 'EC',
+    //     crv: 'P-256',
+    //     x: window.uint8ArrayToBase64Url(
+    //         applicationServerKeys.publicKey.subarray(1, 33)),
+    //     y: window.uint8ArrayToBase64Url(
+    //         applicationServerKeys.publicKey.subarray(33, 65)),
+    //     d: window.uint8ArrayToBase64Url(applicationServerKeys.privateKey),
+    // };
+    //
+    // // Sign the |unsignedToken| with the server's private key to generate
+    // // the signature.
+    // let testa= crypto.subtle.importKey('jwk', key, {
+    //     name: 'ECDSA', namedCurve: 'P-256',
+    // }, true, ['sign'])
+    //     .then((key) => {
+    //         return crypto.subtle.sign({
+    //             name: 'ECDSA',
+    //             hash: {
+    //                 name: 'SHA-256',
+    //             },
+    //         }, key, utf8Encoder.encode(unsignedToken));
+    //     })
+    //     .then((signature) => {
+    //         console.log('Signature: ', signature);
+    //     });
+    // console.log('test', testa)
 
+
+</script>
 </body>
 </html>
