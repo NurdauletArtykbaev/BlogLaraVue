@@ -2005,7 +2005,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "List"
+  name: "List",
+  data: function data() {},
+  mounted: function mounted() {},
+  computed: {},
+  methods: {}
 });
 
 /***/ }),
@@ -60200,7 +60204,7 @@ __webpack_require__.r(__webpack_exports__);
 //https://vuex.vuejs.org/ru/guide/
 /* harmony default export */ __webpack_exports__["default"] = ({
   state: {
-    category: []
+    category: "this store category"
   },
   getters: {
     getCategory: function getCategory(state) {}

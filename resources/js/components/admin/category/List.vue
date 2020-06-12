@@ -46,7 +46,15 @@
 
 <script>
     export default {
-        name: "List"
+        name: "List",
+        data(){
+        },
+        mounted(){
+        },
+        computed:{
+        },
+        methods:{
+        }
     }
 </script>
 

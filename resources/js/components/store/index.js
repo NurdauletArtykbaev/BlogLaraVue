@@ -1,7 +1,7 @@
 //https://vuex.vuejs.org/ru/guide/
 export default {
     state:{
-        category:[],
+        category:"this store category",
     },
     getters:{
         getCategory(state){
