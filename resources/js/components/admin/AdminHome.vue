@@ -1,12 +1,11 @@
 <template>
-      <div class="content-wrapper">
     <!-- /.content-header -->
 
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
-        <div class="row">
+        <div class="row justify-content-around">
           <div class="col-lg-3 col-6">
             <!-- small box -->
             <div class="small-box bg-info">
@@ -591,5 +590,9 @@
       </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->
-  </div>
 </template>
+<script>
+    export default {
+        name: "Home"
+    }
+</script>

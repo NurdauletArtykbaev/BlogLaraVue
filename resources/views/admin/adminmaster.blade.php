@@ -89,6 +89,8 @@
 
   <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
+{{--        <router-view></router-view>--}}
+
         <admin-main></admin-main>
 
     </div>
