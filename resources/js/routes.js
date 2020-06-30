@@ -1,28 +1,20 @@
 import VueRouter from 'vue-router'
-import AdminHome from './components/admin/AdminHome'
-import CategoryList from './components/admin/category/List'
+import AdminHome from './components/admin/AdminHome.vue'
+import CategoryList from './components/admin/category/List.vue'
 import CategoryNew from './components/admin/category/New'
 import CategoryView from './components/admin/category/View'
 let routes = [
     {
         path: '/home',
         component: AdminHome
-
     },
-    // {
-    //     path: '/posts',
-    //     component: Ex
-    //
-    // },
     {
         path: '/category-list',
         component: CategoryList
-
     },
     {
         path: '/add-category',
         component: CategoryNew
-
     },
     {
         path: '/category-view',
@@ -30,11 +22,11 @@ let routes = [
 
     },
 
-]
+];
 
 let router = new VueRouter({
-    routes,
-    mode:'history'
+    mode:'history',
+    routes
 });
 
-export default router
+export default router;
