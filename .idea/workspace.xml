@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="72530457-a70f-4ea8-84a3-f30e925c9a38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/admin/AdminHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/admin/AdminHome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/admin/AdminMaster.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/admin/AdminMaster.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/admin/category/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/admin/category/List.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/adminmaster.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/adminmaster.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +186,7 @@
       <workItem from="1592190953761" duration="26000" />
       <workItem from="1592386030032" duration="33000" />
       <workItem from="1592386130613" duration="1931000" />
-      <workItem from="1592457494869" duration="1628000" />
+      <workItem from="1592457494869" duration="2370000" />
     </task>
     <servers />
   </component>
@@ -200,11 +194,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="651" y="170" key="FileChooserDialogImpl" timestamp="1592190978434">
+    <state x="651" y="170" key="FileChooserDialogImpl" timestamp="1592460311464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584714982507" />
-    <state x="651" y="170" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592190978434" />
+    <state x="651" y="170" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592460311464" />
     <state x="533" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1592386130668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -214,9 +208,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592458298320" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591874516002">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1592460217438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591874516002" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592460217438" />
   </component>
 </project>
